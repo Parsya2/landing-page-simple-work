@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  </head>
+  <body class="dark:bg-blue-950 text-center md:text-start">
+    <div
+      class="bg-[url('../image/header-bg.png')] top-10 absolute right-2 hidden"
+      id="mobmenu"
+    >
+      <a href="#" class="text-gray-500 hover:text-white mx-3 block mb-3 ms-5"
+        >Home</a
+      >
+      <a href="#" class="text-gray-500 hover:text-white mx-3 block my-3 ms-5"
+        >Best for Youtube</a
+      >
+      <a href="#" class="text-gray-500 hover:text-white mx-3 block my-3 ms-5"
+        >Category</a
+      >
+      <a href="#" class="text-gray-500 hover:text-white mx-3 block my-3 ms-5"
+        >Upgrade</a
+      >
+      <a href="#" class="text-gray-500 hover:text-white mx-3 block my-3 ms-5"
+        >FAQ</a
+      >
+      <button
+        href="#"
+        class="bg-blue-600 rounded h-11 w-16 text-white hover:bg-blue-700 ms-5"
+      >
+        Login
+      </button>
+    </div>
+    <header class="w-full bg-[url('../image/header-bg.png')]">
+      <nav class="w-full sticky grid border-b-1 border-white">
+        <img src="../image/logo-nav.svg" alt="logo" class="inline ms-10" />
+        <div class="col-end-10">
+          <a
+            href="#"
+            class="text-gray-500 hover:text-white mx-3 hidden sm:inline"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="text-gray-500 hover:text-white mx-3 hidden sm:inline"
+            >Best for Youtube</a
+          >
+          <a
+            href="#"
+            class="text-gray-500 hover:text-white mx-3 hidden sm:inline"
+            >Category</a
+          >
+          <a
+            href="#"
+            class="text-gray-500 hover:text-white mx-3 hidden sm:inline"
+            >Upgrade</a
+          >
+          <a
+            href="#"
+            class="text-gray-500 hover:text-white mx-3 hidden sm:inline"
+            >FAQ</a
+          >
+          <button
+            href="#"
+            class="bg-blue-600 rounded h-11 w-16 text-white hover:bg-blue-700 hidden sm:inline"
+          >
+            Login
+          </button>
+          <img
+            src="../image/menu.png"
+            alt="menu"
+            class="inline sm:hidden"
+            onclick="menu()"
+          />
+        </div>
+      </nav>
+      <div class="mt-14 flex flex-col content-center">
+        <h1 class="text-white text-4xl font-bold self-center">
+          Free download sound effects without copyright
+        </h1>
+        <p class="text-gray-500 text-xl my-5 self-center">
+          Download free copyright sound effect for your YouTube video and any
+          use.
+        </p>
+        <input
+          type="search"
+          class="w-4/5 h-16 text-2xl ps-8 self-center border-none outline-none bg-white text-black dark:bg-black dark:text-white"
+          placeholder="Search sound effects"
+        />
+        <p class="text-white text-sm mt-3 self-center">
+          Try keyword: happy, funny, natural, horror, jumpscare and more
+        </p>
+        <p class="text-white text-sm mt-14 pb-14 self-center">
+          650.654 Available Sounds. Library Updated Weekly. See popular sounds
+        </p>
+      </div>
+    </header>
+    <section class="w-full mt-14">
+      <h1 class="text-2xl font-semibold text-black dark:text-white ms-12">
+        Best sound effects for youtube videos
+      </h1>
+      <div
+        class="w-4/5 border-y-2 border-black dark:border-white h-16 my-32 flex flex-row ms-12 sm:ms-12 items-center"
+      >
+        <img src="../image/play.png" class="cursor-pointer me-10" alt="play" />
+        <h1
+          class="text-black text-base font-medium dark:text-white me-10 hidden sm:inline"
+        >
+          Sound name
+          <span class="block text-xs font-normal text-black dark:text-white"
+            >0:12</span
+          >
+        </h1>
+        <h1
+          class="text-black text-base font-medium dark:text-white me-10 hidden lg:inline"
+        >
+          Confused excited crowd slight panic and distress
+        </h1>
+        <h1 class="text-black text-base font-medium dark:text-white me-10">
+          Shocking, jumpscare
+        </h1>
+        <img src="../image/like.png" alt="like" class="cursor-pointer" /><img
+          src="../image/download.png"
+          alt="download"
+          class="cursor-pointer"
+        />
+      </div>
+      <div
+        class="w-4/5 border-y-2 border-black dark:border-white h-16 my-32 flex flex-row ms-12 sm:ms-12 items-center"
+      >
+        <img src="../image/play.png" class="cursor-pointer me-10" alt="play" />
+        <h1
+          class="text-black text-base font-medium dark:text-white me-10 hidden sm:inline"
+        >
+          Sound name
+          <span class="block text-xs font-normal text-black dark:text-white"
+            >0:12</span
+          >
+        </h1>
+        <h1
+          class="text-black text-base font-medium dark:text-white me-10 hidden lg:inline"
+        >
+          Confused excited crowd slight panic and distress
+        </h1>
+        <h1 class="text-black text-base font-medium dark:text-white me-10">
+          Shocking, jumpscare
+        </h1>
+        <img src="../image/like.png" alt="like" class="cursor-pointer" /><img
+          src="../image/download.png"
+          alt="download"
+          class="cursor-pointer"
+        />
+      </div>
+      <div
+        class="w-4/5 border-y-2 border-black dark:border-white h-16 my-32 flex flex-row ms-12 sm:ms-12 items-center"
+      >
+        <img src="../image/play.png" class="cursor-pointer me-10" alt="play" />
+        <h1
+          class="text-black text-base font-medium dark:text-white me-10 hidden sm:inline"
+        >
+          Sound name
+          <span class="block text-xs font-normal text-black dark:text-white"
+            >0:12</span
+          >
+        </h1>
+        <h1
+          class="text-black text-base font-medium dark:text-white me-10 hidden lg:inline"
+        >
+          Confused excited crowd slight panic and distress
+        </h1>
+        <h1 class="text-black text-base font-medium dark:text-white me-10">
+          Shocking, jumpscare
+        </h1>
+        <img src="../image/like.png" alt="like" class="cursor-pointer" /><img
+          src="../image/download.png"
+          alt="download"
+          class="cursor-pointer"
+        />
+      </div>
+      <div
+        class="w-4/5 border-y-2 border-black dark:border-white h-16 my-32 flex flex-row ms-12 sm:ms-12 items-center"
+      >
+        <img src="../image/play.png" class="cursor-pointer me-10" alt="play" />
+        <h1
+          class="text-black text-base font-medium dark:text-white me-10 hidden sm:inline"
+        >
+          Sound name
+          <span class="block text-xs font-normal text-black dark:text-white"
+            >0:12</span
+          >
+        </h1>
+        <h1
+          class="text-black text-base font-medium dark:text-white me-10 hidden lg:inline"
+        >
+          Confused excited crowd slight panic and distress
+        </h1>
+        <h1 class="text-black text-base font-medium dark:text-white me-10">
+          Shocking, jumpscare
+        </h1>
+        <img src="../image/like.png" alt="like" class="cursor-pointer" /><img
+          src="../image/download.png"
+          alt="download"
+          class="cursor-pointer"
+        />
+      </div>
+    </section>
+    <section>
+      <h1 class="font-semibold text-black text-3xl ms-12">
+        Browse by category
+      </h1>
+      <div
+        class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6 mt-10 ms-3"
+      >
+        <img src="../image/sec2/musical.png" alt="img" class="col-span-1" />
+        <img src="../image/sec2/industrial.png" alt="img" class="col-span-1" />
+        <img
+          src="../image/sec2/movie sounds.png"
+          alt="img"
+          class="col-span-1"
+        />
+        <img src="../image/sec2/animal.png" alt="img" class="col-span-1" />
+        <img src="../image/sec2/people.png" alt="img" class="col-span-1" />
+        <img src="../image/sec2/vehicles.png" alt="img" class="col-span-1" />
+        <img
+          src="../image/sec2/sound designs.png"
+          alt="img"
+          class="col-span-1"
+        />
+        <img src="../image/sec2/emergency.png" alt="img" class="col-span-1" />
+        <img src="../image/sec2/bell.png" alt="img" class="col-span-1" />
+        <img src="../image/sec2/nature.png" alt="img" class="col-span-1" />
+        <img src="../image/sec2/cartoon.png" alt="img" class="col-span-1" />
+        <img src="../image/sec2/horror.png" alt="img" class="col-span-1" />
+      </div>
+    </section>
+    <section class="mt-14 ms-12">
+      <h1 class="text-black text-3xl w-full font-semibold block">
+        WHY uS? We are provide the best quality sound effects without copyright.
+      </h1>
+      <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
+        <div class="w-full md:w-2/5">
+          <img src="../image/sec3/icon1.png" alt="icon" />
+          <h1 class="text-lg font-semibold text-black">
+            1.203.322 Customer satisfied
+          </h1>
+          <p class="font-medium text-sm text-slate-600">
+            We've helped more than 1 million customers find best sound effects
+          </p>
+        </div>
+        <div class="w-full md:w-2/5">
+          <img src="../image/sec3/icon2.png" alt="icon" />
+          <h1 class="text-lg font-semibold text-black">650.654 Sounds</h1>
+          <p class="font-medium text-sm text-slate-600">
+            More than 600 thousand high quality to download. Still counting
+          </p>
+        </div>
+        <div class="w-full md:w-2/5">
+          <img src="../image/sec3/icon3.png" alt="icon" />
+          <h1 class="text-lg font-semibold text-black">Royalty-free</h1>
+          <p class="font-medium text-sm text-slate-600">
+            Just download and use the sound for your videos without royalty
+          </p>
+        </div>
+        <div class="w-full md:w-2/5">
+          <img src="../image/sec3/icon4.png" alt="icon" />
+          <h1 class="text-lg font-semibold text-black">
+            Provide proper sounds
+          </h1>
+          <p class="font-medium text-sm text-slate-600">
+            We just provide sounds with the best quality for customers
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="bg-blue-700 mt-14 pb-20">
+      <h1 class="text-white font-bold text-4xl flex justify-center pt-14">
+        Download sound effects for your project
+      </h1>
+      <p class="text-white font-medium text-lg flex justify-center mt-4">
+        Find the right plan for you
+      </p>
+      <div
+        class="flex flex-col mt-14 md:flex-row text-start w-4/5 gap-x-10 ms-10%"
+      >
+        <div
+          class="border-2 border-white rounded-lg h-80 w-full md:w-1/2 mt-10"
+        >
+          <h1 class="text-white font-semibold text-3xl ms-10% mt-5">Basic</h1>
+          <p class="text-white font-medium text-lg ms-10% mt-5">
+            Download any royalty-free sound effects
+          </p>
+          <h1 class="text-white text-xl font-semibold ms-10% mt-16">Free</h1>
+          <button
+            class="text-blue-500 bg-white font-semibold text-base mt-6 border-2 rounded-lg hover:text-white hover:bg-blue-700 h-12 w-32 ms-10%"
+          >
+            Get started
+          </button>
+        </div>
+        <div class="bg-blue-500 rounded-lg h-80 w-full md:w-1/2 mt-10">
+          <h1 class="text-white font-semibold text-3xl ms-10% mt-5">Premium</h1>
+          <p class="text-white font-medium text-lg ms-10% mt-5">
+            Download premium sound effects and use them for any business purpose
+          </p>
+          <h1 class="text-white text-xl font-semibold ms-10% mt-10">
+            Start from $12/month
+          </h1>
+          <button
+            class="text-blue-500 bg-white font-semibold text-base mt-6 border-2 rounded-lg hover:text-white hover:bg-blue-500 h-12 w-32 ms-10%"
+          >
+            Get started
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white mt-14 pb-14">
+      <h1 class="text-black text-2xl font-semibold flex justify-center">
+        Hear good experiences from our customers
+      </h1>
+      <div class="flex overflow-x-auto no-scrollbar flex-row justify-center">
+        <div
+          class="text-center flex-none flex flex-col items-center justify-center w-56 mx-10"
+        >
+          <img
+            src="../image/sec4/double-quotes.png"
+            class=""
+            alt="double-quotes"
+          />
+          <p class="text-sm font-medium text-black">
+            The sounds from WavesCo is great and it really helps our team to
+            save time and production costs.
+          </p>
+          <img src="../image/sec4/1.png" class="" alt="profile-img" />
+          <h1 class="text-lg font-semibold text-black">Anne Joyce</h1>
+          <p class="text-sm text-black font-medium">
+            Video editor at Dude Perfect
+          </p>
+        </div>
+        <div
+          class="text-center flex-none flex flex-col items-center justify-center w-56 mx-10"
+        >
+          <img
+            src="../image/sec4/double-quotes.png"
+            class=""
+            alt="double-quotes"
+          />
+          <p class="text-sm font-medium text-black">
+            WavesCo was a great choice for our team for film production, the
+            quality is amazingly great.
+          </p>
+          <img src="../image/sec4/2.png" class="" alt="profile-img" />
+          <h1 class="text-lg font-semibold text-black">Edward Sann</h1>
+          <p class="text-sm text-black font-medium">
+            Head of Video editor at Netflix
+          </p>
+        </div>
+        <div
+          class="text-center flex-none flex flex-col items-center justify-center w-56 mx-10"
+        >
+          <img
+            src="../image/sec4/double-quotes.png"
+            class=""
+            alt="double-quotes"
+          />
+          <p class="text-sm font-medium text-black">
+            Perfect way to get best quality sound effects for youtube videos.
+            Thanks to WavesCo team.
+          </p>
+          <img src="../image/sec4/3.png" class="" alt="profile-img" />
+          <h1 class="text-lg font-semibold text-black">Ronn D.</h1>
+          <p class="text-sm text-black font-medium">
+            Video Editor at PewDiePie
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-blue-950">
+      <div class="w-64 block md:inline ">
+        <img src="../image/logo-nav.svg" alt="logo" />
+        <p class="text-gray-500 text-base font-normal">
+          WavesCo is a platform for providing premium sound effects for Youtube
+          videos, movies and many more.
+        </p>
+        <p class="text-gray-500 text-sm font-medium">
+          WavesCo &copy;<span class="year"></span>, All rights reserved
+        </p>
+      </div>
+      <div  class="text-white flex flex-wrap">
+        <div class="ms-0 mt-10 w-1/3 p-2">
+          <h1>Product</h1>
+          <ul class="list-none">
+            <a><li class="text-gray-500 mt-8">Browse sounds</li></a>
+            <a><li class="text-gray-500 mt-8">Pricing</li></a>
+            <a><li class="text-gray-500 mt-8">FAQ</li></a>
+            <a><li class="text-gray-500 mt-8">Affiliate</li></a>
+          </ul>
+        </div>
+        <div class="ms-0 mt-10 w-1/3 p-2">
+          <h1>Company</h1>
+          <ul class="list-none">
+            <a><li class="text-gray-500 mt-8">Blog</li></a>
+            <a><li class="text-gray-500 mt-8">About us</li></a>
+            <a><li class="text-gray-500 mt-8">Help</li></a>
+            <a><li class="text-gray-500 mt-8">Career</li></a>
+          </ul>
+        </div>
+        <div class="ms-0 mt-10 w-1/3 p-2">
+          <h1>Social Media</h1>
+          <ul class="list-none">
+            <a><li class="text-gray-500 mt-8">Twitter</li></a>
+            <a><li class="text-gray-500 mt-8">Instagram</li></a>
+            <a><li class="text-gray-500 mt-8">YouTube</li></a>
+            <a><li class="text-gray-500 mt-8">Facebook</li></a>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function menu() {
+        const x = document.getElementById("mobmenu");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      let currentYear = new Date().getFullYear();
+      document.querySelector(".year").textContent = currentYear;
+    </script>
+  </body>
+</html>
